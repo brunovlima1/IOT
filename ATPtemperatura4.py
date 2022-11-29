@@ -7,7 +7,7 @@ import urequests
 from wifi_lib import conecta
 
 #constancias e variáveis
-station = conecta("CASA 98", "68788898");
+station = conecta("network", "password");
 http_headers = {'content-Type': 'application/json'}
 thingspeak_api_write_key = '01YHDV5ZOBZF9WR8'
 update_time_interval = 5000
